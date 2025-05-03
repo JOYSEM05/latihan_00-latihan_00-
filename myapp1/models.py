@@ -1,0 +1,3 @@
+class Artikel(models.Model):
+    ...
+

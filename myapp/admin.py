@@ -1,3 +1,6 @@
-from django.contrib import admin
+from django.db import models
 
-# Register your models here.
+from django.contrib import admin
+from mynewapp.models import StatusModel  # impor model, bukan definisi ulang
+
+admin.site.register(StatusModel)
